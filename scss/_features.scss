@@ -1,0 +1,54 @@
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 80px;
+    &__delivery {
+        text-align: center;
+        margin: auto 50px;
+
+        &--title {
+            font-size: $font-size-prices;
+            font-weight: 500;
+            letter-spacing: .5px;
+            margin: 20px auto;
+        }
+
+        &--paragraph {
+            font-size: $font-size-paragraph;
+            line-height: 1.8;
+            color: $color-darkgrey
+        }
+
+        i {
+            font-size: 4rem;
+        }
+
+    }
+
+    &__handmade {
+        @extend .features__delivery;
+
+        &--title {
+            @extend .features__delivery--title
+        }
+
+        &--paragraph {
+            @extend .features__delivery--paragraph
+        }
+    }
+
+    &__security {
+        @extend .features__delivery;
+
+        &--title {
+            @extend .features__delivery--title
+        }
+
+        &--paragraph {
+            @extend .features__delivery--paragraph
+        }
+
+    }
+}
+
