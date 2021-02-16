@@ -45,3 +45,48 @@ a {
         color: $color-black;
     }
 }
+
+@mixin subtitles {
+    font-size: $font-size-subtitles;
+    font-weight: 500;
+    text-align: center;
+}
+
+@mixin categories {
+    background-color: $color-categories;
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 330px;
+    margin: 40px auto;
+}
+
+@mixin button-categories {
+    background-color: $color-main;
+    padding: 10px 50px;
+    color: $color-white;
+    font-size: $font-size-paragraph;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-black;
+    }
+}
+
+@mixin categories-interaction {
+    position: absolute;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin categories__title {
+    font-size: $font-size-categories;
+        font-weight: 100;
+        margin-bottom: 30px;
+}

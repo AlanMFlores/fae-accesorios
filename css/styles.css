@@ -119,18 +119,15 @@ a {
   margin-top: 80px;
   margin-bottom: 40px;
   justify-content: center; }
-
-.featured__products--container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%; }
-
-.featured__title {
-  margin: 0 auto;
-  font-size: 2.8rem;
-  font-weight: 500;
-  text-align: center; }
+  .featured__title {
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center; }
+  .featured__products--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%; }
 
 .featured__product {
   width: 25%;
@@ -159,11 +156,143 @@ a {
     .featured__product-button:hover {
       background-color: #ffffff;
       color: #141110; }
+  .featured__product-img {
+    width: 100%; }
+    .featured__product-img img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px; }
 
-.featured__product-img {
-  width: 100%; }
-  .featured__product-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10px; }
+.categories__title {
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 60px; }
+
+.categories__necklaces, .categories__earrings, .categories__bracelets, .categories__clay {
+  background-color: #efefef;
+  background-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 330px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url(/images/categories/necklaces.jpg); }
+
+.categories__earrings {
+  background-color: #efefef;
+  background-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 330px;
+  margin: 40px auto;
+  background-image: url(/images/categories/earrings.jpg); }
+
+.categories__bracelets {
+  background-color: #efefef;
+  background-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 330px;
+  margin: 40px auto;
+  background-image: url(/images/categories/bracelets.jpg); }
+
+.categories__clay {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 330px;
+  margin: 40px auto;
+  background-image: url(/images/categories/clay.jpeg);
+  background-size: cover;
+  background-position-y: -400px; }
+
+.categories__necklaces-interaction {
+  position: absolute;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .categories__necklaces-interaction--title {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 30px; }
+  .categories__necklaces-interaction--button {
+    background-color: #b05358;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .categories__necklaces-interaction--button:hover {
+      background-color: #ffffff;
+      color: #141110; }
+
+.categories__earrings-interaction {
+  position: absolute;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .categories__earrings-interaction--title {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 30px; }
+  .categories__earrings-interaction--button {
+    background-color: #b05358;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .categories__earrings-interaction--button:hover {
+      background-color: #ffffff;
+      color: #141110; }
+
+.categories__bracelets-interaction {
+  position: absolute;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .categories__bracelets-interaction--title {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 30px; }
+  .categories__bracelets-interaction--button {
+    background-color: #b05358;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .categories__bracelets-interaction--button:hover {
+      background-color: #ffffff;
+      color: #141110; }
+
+.categories__clay-interaction {
+  text-align: center; }
+  .categories__clay-interaction--title {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #ffffff; }
+  .categories__clay-interaction--button {
+    background-color: #b05358;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .categories__clay-interaction--button:hover {
+      background-color: #ffffff;
+      color: #141110; }
