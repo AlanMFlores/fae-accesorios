@@ -10,24 +10,19 @@
         display: flex;
         align-items: center;
         position: relative;
-<<<<<<< HEAD
-        background-image: url("images/categories/necklaces.jpg");
-=======
-        background-image: url(images/categories/necklaces.JPG);
->>>>>>> 112c687b5a4f221035fb5e5ffa006d790be0a09a
-    
+        background-image: url("/images/categories/necklaces.jpg");
     }
 
     &__earrings {
         @include categories;
         @extend .categories__necklaces;
-        background-image: url("images/categories/earrings.jpg");
+        background-image: url("/images/categories/earrings.jpg");
     }    
     
     &__bracelets {
         @include categories;
         @extend .categories__necklaces;
-        background-image: url("images/categories/bracelets.jpg");
+        background-image: url("/images/categories/bracelets.jpg");
     }   
 
     &__clay {
@@ -37,7 +32,7 @@
         width: 90%;
         height: 330px;
         margin: 40px auto;
-        background-image: url("images/categories/clay.jpeg");
+        background-image: url("/images/categories/clay.jpeg");
         background-size: cover;
         background-position-y: -400px;
     }
