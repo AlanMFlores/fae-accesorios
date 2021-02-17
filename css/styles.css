@@ -337,5 +337,14 @@ a {
     .social-networks__facebook i {
       padding-left: 5px; }
 
-.message__logo {
-  width: 12%; }
+.message {
+  width: 40%;
+  margin: 80px auto;
+  text-align: center; }
+  .message__logo {
+    width: 30%;
+    margin-bottom: 40px; }
+  .message__paragraph {
+    font-size: 1.6rem;
+    line-height: 2;
+    margin-bottom: 20px; }
