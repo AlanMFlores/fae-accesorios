@@ -90,3 +90,12 @@ a {
         font-weight: 100;
         margin-bottom: 30px;
 }
+
+@mixin footer-items {
+    color: $color-categories;
+    font-size: $font-size-paragraph-less;
+}
+
+@mixin footer-containers {
+    margin-right: 80px;
+}
