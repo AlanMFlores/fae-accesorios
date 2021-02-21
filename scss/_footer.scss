@@ -1,11 +1,17 @@
 footer {
-    display: flex;
+    display: block;
     justify-content: center;
     padding: 80px;
     width: 100%;
     height: auto;
     background-color: $color-black;
     border-top: 6px solid $color-main;
+    text-align: center;
+
+    @include media (extra-large-dev) {
+        display: flex;
+        text-align: start;
+    }
 }
 
 .footer__shop {
@@ -84,9 +90,11 @@ footer {
 }
 
 .footer__search {
-    width: 25%;
+    width: 100%;
     height: auto;
     display: flex;
+    text-align: center;
+    margin: 40px auto;
 
     &-input {
         width: 100%;
@@ -116,6 +124,15 @@ footer {
             }
         }
     }
+
+    @include media(small-dev) {
+        width: 25%;
+    }
+
+    @include media(medium-dev) {
+        width: 50%;
+    }
 }
+
 
 

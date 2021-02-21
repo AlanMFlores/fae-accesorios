@@ -1,4 +1,5 @@
 .categories {
+    margin: 0 auto;
 
     &__title {
         @include subtitles;
@@ -34,7 +35,10 @@
         margin: 40px auto;
         background-image: url("../images/categories/clay.jpeg");
         background-size: cover;
-        background-position-y: -400px;
+
+        @include media(medium-dev) {
+            background-position-y: -400px;
+        }
     }
 }
 
